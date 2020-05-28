@@ -42,27 +42,28 @@
 }
 /* Gilroy Font Faces END */
 
+/* Remove post & follower count */
+.blocks.topics .blocks-item.topics-item ul.meta-group {
+    display: none;
+}
+
 /* Header START */
 
 .avatar {
-    height: 0;
-    width: 0;
-    display: block;
-    visibility: hidden;
+    /*height: 0;*/
+    /*width: 0;*/
+    display: none;
 }
 .avatar img {
-    height: 0;
-    width: 0;
-    display: block;
-    visibility: hidden;
+    /*height: 0;*/
+    /*width: 0;*/
+    display: none;
 }
 .icon-agent {
-    height: 0;
-    width: 0;
-    display: block;
-    visibility: hidden;
+    /*height: 0;*/
+    /*width: 0;*/
+    display: none;
 }
-
 
 #user-name, .login, .user-nav a {
     color: #093145 !important;
@@ -75,11 +76,11 @@
 }
 
 .nav-wrapper .user-avatar {
-    height: 0;
-    width: 0;
-    display: inline-block;
-    vertical-align: middle;
-    visibility: hidden;
+    /*height: 0;*/
+    /*width: 0;*/
+    display: none;
+    /*vertical-align: middle;*/
+    /*visibility: hidden;*/
 }
 
 /* Header END */
