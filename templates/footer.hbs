@@ -1,15 +1,65 @@
-<footer class="footer">
-  <div class="footer-inner">
-    {{#link 'help_center'}}{{help_center.name}}{{/link}}
+<footer class="footer">    
+<section>
+        <div class="container text-center" style="width:100%">
+            <div class="row footer-row">
+
+                <div class="footer-links-container">
+                    <div class="footer-links">
+                        <ul>
+                            <li>COMPANY</li>
+                            <li><a href="https://gennev.com/our-story/" gcp-analytic-event="click" gcp-analytic-label="our story">Our story</a></li>
+                            <li><a href="https://gennev.com/press/" gcp-analytic-event="click" gcp-analytic-label="press">Press</a></li>
+                            <li><a href="https://help.gennev.com/hc/en-us" gcp-analytic-event="click" gcp-analytic-label="help center">Help Center</a></li>
+                            <li><a href="https://gennev.com/contact-us/" gcp-analytic-event="click" gcp-analytic-label="contact us">Contact us</a></li>
+                            <li><a href="https://gennev.com/careers/" gcp-analytic-event="click" gcp-analytic-label="careers">Careers</a></li>
+                           <li><a href="https://gennev.com/editorialpolicy/" gcp-analytic-event="click" gcp-analytic-label="editorial policy">Editorial Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-links-container">
+                    <div class="footer-links">
+                        <ul>
+                            <li>PRODUCTS + SERVICES</li>
+                            <li><a target="_blank" href="https://shop.gennev.com/" gcp-analytic-event="click" gcp-analytic-label="products">Menopause products</a></li>
+                            <li><a href="https://gennev.com/subscription/" gcp-analytic-event="click" gcp-analytic-label="subscription">Menopause coaching</a></li>
+                            <li><a href="https://gennev.com/book-appointment/" gcp-analytic-event="click" gcp-analytic-label="telemedicine">Menopause telemedicine</a></li>
+                            <li><a href="https://gennev.com/return-policy/" gcp-analytic-event="click" gcp-analytic-label="contact us">Return policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-links-container">
+                    <div class="footer-links">
+                        <ul>
+                            <li>OVERVIEW</li>
+                            <li><a href="https://gennev.com/what-is-menopause/" gcp-analytic-event="click" gcp-analytic-label="our story">What is menopause?</a></li>
+                            <li><a href="https://gennev.com/initial-assessment/" gcp-analytic-event="click" gcp-analytic-label="our story">Am I in menopause?</a></li>
+                            <li><a href="https://gennev.com/perimenopause-menopause-symptoms/" gcp-analytic-event="click" gcp-analytic-label="our story">Common menopause symptoms</a></li>
+                            <li><a href="https://help.gennev.com/hc/en-us/community/topics" gcp-analytic-event="click" gcp-analytic-label="community">Community</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footerSocialMediaLinks">
+<!--                     <ul>
+                        <li class="footer-social"><a href="https://www.facebook.com/mygennev/" target="_blank" gcp-analytic-event="click" gcp-analytic-label="footer facebook"><i class="fa fa-facebook font-white" aria-hidden="true"></i></a></li>
+                        <li class="footer-social"><a href="https://twitter.com/mygennev/" target="_blank" gcp-analytic-event="click" gcp-analytic-label="footer twitter"><i class="fa fa-twitter font-white" aria-hidden="true"></i></a></li>
+                        <li class="footer-social"><a href="https://www.linkedin.com/company/gennev/" target="_blank" gcp-analytic-event="click" gcp-analytic-label="footer linked in"><i class="fa fa-linkedin font-white" aria-hidden="true"></i></a></li>
+                        <li class="footer-social"><a href="https://www.instagram.com/mygennev/" target="_blank" gcp-analytic-event="click" gcp-analytic-label="footer instagram"><i class="fa fa-instagram font-white" aria-hidden="true"></i></a></li>
+                    </ul> -->
+                    <p class="font-size-14">Ⓒ 2020 Feminina Group | <a href="https://gennev.com/termsandconditions/" gcp-analytic-event="click" gcp-analytic-label="terms and condition">Terms</a> | <a href="https://gennev.com/privacy-policy/" gcp-analytic-event="click" gcp-analytic-label="privacy policy">Privacy</a></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
     <div class="footer-language-selector">
       {{#if alternative_locales}}
         <div class="dropdown language-selector">
           <button class="dropdown-toggle" aria-haspopup="true">
             {{current_locale.name}}
-            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="dropdown-chevron-icon">
-              <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
-            </svg>
           </button>
           <span class="dropdown-menu dropdown-menu-end" role="menu">
             {{#each alternative_locales}}
@@ -21,5 +71,4 @@
         </div>
       {{/if}}
     </div>
-  </div>
 </footer>

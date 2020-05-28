@@ -1,8 +1,8 @@
 {
   "name": "Copenhagen",
   "author": "Zendesk",
-  "version": "2.2.4",
-  "api_version": 2,
+  "version": "1.8.1",
+  "api_version": 1,
   "default_locale": "en-us",
   "settings": [
     {
@@ -13,35 +13,35 @@
           "type": "color",
           "description": "brand_color_description",
           "label": "brand_color_label",
-          "value": "#0072EF"
+          "value": "rgba(9, 49, 69, 1)"
         },
         {
           "identifier": "brand_text_color",
           "type": "color",
           "description": "brand_text_color_description",
           "label": "brand_text_color_label",
-          "value": "#FFFFFF"
+          "value": "rgba(255, 255, 255, 1)"
         },
         {
           "identifier": "text_color",
           "type": "color",
           "description": "text_color_description",
           "label": "text_color_label",
-          "value": "#333333"
+          "value": "rgba(9, 49, 69, 1)"
         },
         {
           "identifier": "link_color",
           "type": "color",
           "description": "link_color_description",
           "label": "link_color_label",
-          "value": "#1F73B7"
+          "value": "rgba(22, 109, 111, 1)"
         },
         {
           "identifier": "background_color",
           "type": "color",
           "description": "background_color_description",
           "label": "background_color_label",
-          "value": "#FFFFFF"
+          "value": "rgba(255, 255, 255, 1)"
         }
       ]
     },
@@ -53,6 +53,7 @@
           "type": "list",
           "description": "heading_font_description",
           "label": "heading_font_label",
+          "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
           "options": [
             {
               "label": "System",
@@ -118,14 +119,14 @@
               "label": "Trebuchet MS",
               "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
             }
-          ],
-          "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+          ]
         },
         {
           "identifier": "text_font",
           "type": "list",
           "description": "text_font_description",
           "label": "text_font_label",
+          "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
           "options": [
             {
               "label": "System",
@@ -191,8 +192,7 @@
               "label": "Trebuchet MS",
               "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
             }
-          ],
-          "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+          ]
         }
       ]
     },
@@ -270,7 +270,7 @@
           "type": "checkbox",
           "description": "recent_activity_description",
           "label": "recent_activity_label",
-          "value": true
+          "value": false
         }
       ]
     },
@@ -296,35 +296,35 @@
           "type": "checkbox",
           "description": "article_comments_description",
           "label": "article_comments_label",
-          "value": true
+          "value": false
         },
         {
           "identifier": "show_follow_article",
           "type": "checkbox",
           "description": "follow_article_description",
           "label": "follow_article_label",
-          "value": true
+          "value": false
         },
         {
           "identifier": "show_recently_viewed_articles",
           "type": "checkbox",
           "description": "recently_viewed_articles_description",
           "label": "recently_viewed_articles_label",
-          "value": true
+          "value": false
         },
         {
           "identifier": "show_related_articles",
           "type": "checkbox",
           "description": "related_articles_description",
           "label": "related_articles_label",
-          "value": true
+          "value": false
         },
         {
           "identifier": "show_article_sharing",
           "type": "checkbox",
           "description": "article_sharing_description",
           "label": "article_sharing_label",
-          "value": true
+          "value": false
         }
       ]
     },
