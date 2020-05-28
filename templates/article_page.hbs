@@ -223,8 +223,11 @@
                 </div>
               </div>
             {{/form}}
-
-            <p class="comment-callout">{{comment_callout}}</p>
+            {{#if signed_in}}
+              <p class="comment-callout">Click the box above to leave a comment.</p>
+            {{else}}
+              <p class="comment-callout">{{comment_callout}}</p>
+            {{/if}}
           </section>
         </div>
       {{/if}}
