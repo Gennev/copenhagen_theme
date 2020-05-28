@@ -47,24 +47,22 @@
     display: none;
 }
 
-/* Header START */
+/* Remove avatars */
+.nav-wrapper .user-avatar {
+    display: none !important;
+}
 
 .avatar {
-    /*height: 0;*/
-    /*width: 0;*/
-    display: none;
+    display: none !important;
 }
 .avatar img {
-    /*height: 0;*/
-    /*width: 0;*/
-    display: none;
+    display: none !important;
 }
 .icon-agent {
-    /*height: 0;*/
-    /*width: 0;*/
-    display: none;
+    display: none !important;
 }
 
+/* Header START */
 #user-name, .login, .user-nav a {
     color: #093145 !important;
     font-family: 'Gilroy-Bold','Open Sans',Arial, sans-serif !important;
@@ -74,15 +72,6 @@
 .user-nav {
     transform: translateY(8%);
 }
-
-.nav-wrapper .user-avatar {
-    /*height: 0;*/
-    /*width: 0;*/
-    display: none;
-    /*vertical-align: middle;*/
-    /*visibility: hidden;*/
-}
-
 /* Header END */
 
 /* Footer Style START */
